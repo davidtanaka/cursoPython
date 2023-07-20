@@ -1,0 +1,10 @@
+d = input('digite algo:')
+
+print('o tipo primitivo desse valor é', type(d))
+print('so tem espaços?', d.isspace())
+print('e um numero?', d.isnumeric())
+print('e alfabetico?', d.isalpha())
+print('e alpha numerico?', d.isalnum())
+print('etsa em maiusculas?', d.isupper())
+print('etsa em minusculas?', d.islower())
+print('etsa capitalizada', d.istitle())
