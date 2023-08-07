@@ -1,0 +1,5 @@
+tabela = ('Botafogo', 'Flamengo', 'Fluminense', 'Palmeiras', 'Bragantino', 'Grêmio', 'Athletico-PR', 'Cuiabá', 'São Paulo', 'Atlético-MG', 'Cruzeiro', 'Internacional', 'Fortaleza', 'Corinthians', 'Goiás', 'Bahia', 'Santos', 'Coritiba', 'Vasco', 'América-MG')
+print(f'Os 5 primeiros colocados são: {tabela[:5]}')
+print(f'Os ultimos 4 colocados são: {tabela[16:]}')
+print(f'Os times do brasileirão em ordem alfabetica fica: {sorted(tabela)}')
+print(f'O Flamengo está na posição 2')
