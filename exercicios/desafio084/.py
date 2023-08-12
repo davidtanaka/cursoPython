@@ -2,8 +2,8 @@ lista = list()
 temp = list()
 maior = menor = 0
 totc = 0
-lista.append(str(input('Nome: ')))
-lista.append(float(input('Peso: ')))
+temp.append(str(input('Nome: ')))
+temp.append(float(input('Peso: ')))
 while True:
     continuar = str(input('Você deseja continuar? [S/N] ')).strip().upper()
     if continuar == 'S':
