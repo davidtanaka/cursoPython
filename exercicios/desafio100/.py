@@ -27,15 +27,15 @@ print(f'A soma dos pares foi {somaPar(numeros)}')
 # from random import randint
 # numeros = list()
 # pares = ''
-# def sorteia():
-#     numeros = randint(0, 10), randint(0, 10), randint(0, 10), randint(0, 10), randint# (0, 10)
+# def sorteia(numeros):
+#     numeros = randint(0, 10), randint(0, 10), randint(0, 10), randint(0, 10), randint (0, 10)
 #     print(f'Os numeros que eu pensei foram: {numeros}')
 
 
-# def somaPar():
+# def somaPar(n):
 #     if numeros % 2 == 0:
 #         pares = numeros
 #     print(f'Os numeros pares encontrados foram {pares}')
-# sorteia()
+# sorteia(numeros)
 # somaPar()
 
